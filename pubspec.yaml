@@ -1,0 +1,43 @@
+name: bayu_flutter
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.3.8
+  lottie: ^1.0.1
+  google_fonts: ^2.1.0
+  concentric_transition: ^1.0.1+1
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_native_splash: "^1.2.0"
+  concentric_transition: ^1.0.1+1
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/json/
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Quicksand-Light.ttf
+          weight: 100
+
+flutter_native_splash:
+  color: "#ff0082"
+  image: assets/images/b.png
