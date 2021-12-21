@@ -5,6 +5,7 @@ import 'dart:io';
  * Copyright (c) 2021 . All rights reserved.
  */
 dynamic main() {
+
   final rootDir = Directory.current;
   final commitFile = File(rootDir.path + "/.git/COMMIT_EDITMSG");
   final commitMessage = commitFile.readAsStringSync();
