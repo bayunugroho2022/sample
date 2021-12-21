@@ -1,4 +1,5 @@
 import 'package:bayu_flutter/app/model/model.dart';
+import 'package:bayu_flutter/app/routes/app_pages.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
@@ -23,6 +24,7 @@ class HomeController extends GetxController {
 
   void onTap(int id) {
     if (id == 1) {
+      Get.toNamed(Routes.CONCERTRIC);
     } else if (id == 2) {
     } else if (id == 3) {
     } else if (id == 4) {}

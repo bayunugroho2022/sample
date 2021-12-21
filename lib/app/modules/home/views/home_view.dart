@@ -118,11 +118,9 @@ class HomeView extends GetView<HomeController> {
                 itemBuilder: (BuildContext ctx, index) {
                   return FadeInUp(
                     delay: Duration(seconds: 1),
-                    child: BouncingWidget(
-                      duration: Duration(milliseconds: 100),
-                      scaleFactor: 1.5,
-                      onPressed: () {
-
+                    child: InkWell(
+                      onTap: (){
+                        controller.onTap(controller.itemList[index].id!);
                       },
                       child: Card(
                         elevation: 3,
