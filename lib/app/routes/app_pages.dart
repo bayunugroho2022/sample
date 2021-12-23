@@ -2,10 +2,16 @@ import 'package:get/get.dart';
 
 import 'package:bayu_flutter/app/modules/concertric/bindings/concertric_binding.dart';
 import 'package:bayu_flutter/app/modules/concertric/views/concertric_view.dart';
+import 'package:bayu_flutter/app/modules/detail_shirt/bindings/detail_shirt_binding.dart';
+import 'package:bayu_flutter/app/modules/detail_shirt/views/detail_shirt_view.dart';
+import 'package:bayu_flutter/app/modules/doctor/bindings/doctor_binding.dart';
+import 'package:bayu_flutter/app/modules/doctor/views/doctor_view.dart';
 import 'package:bayu_flutter/app/modules/home/bindings/home_binding.dart';
 import 'package:bayu_flutter/app/modules/home/views/home_view.dart';
 import 'package:bayu_flutter/app/modules/intro/bindings/intro_binding.dart';
 import 'package:bayu_flutter/app/modules/intro/views/intro_view.dart';
+import 'package:bayu_flutter/app/modules/shirt/bindings/shirt_binding.dart';
+import 'package:bayu_flutter/app/modules/shirt/views/shirt_view.dart';
 
 part 'app_routes.dart';
 
@@ -29,6 +35,21 @@ class AppPages {
       name: _Paths.CONCERTRIC,
       page: () => ConcertricView(),
       binding: ConcertricBinding(),
+    ),
+    GetPage(
+      name: _Paths.DOCTOR,
+      page: () => DoctorView(),
+      binding: DoctorBinding(),
+    ),
+    GetPage(
+      name: _Paths.SHIRT,
+      page: () => ShirtView(),
+      binding: ShirtBinding(),
+    ),
+    GetPage(
+      name: _Paths.DETAIL_SHIRT,
+      page: () => DetailShirtView(),
+      binding: DetailShirtBinding(),
     ),
   ];
 }

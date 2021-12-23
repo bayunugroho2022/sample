@@ -7,10 +7,16 @@ abstract class Routes {
   static const HOME = _Paths.HOME;
   static const INTRO = _Paths.INTRO;
   static const CONCERTRIC = _Paths.CONCERTRIC;
+  static const DOCTOR = _Paths.DOCTOR;
+  static const SHIRT = _Paths.SHIRT;
+  static const DETAIL_SHIRT = _Paths.DETAIL_SHIRT;
 }
 
 abstract class _Paths {
   static const HOME = '/home';
   static const INTRO = '/intro';
   static const CONCERTRIC = '/concertric';
+  static const DOCTOR = '/doctor';
+  static const SHIRT = '/shirt';
+  static const DETAIL_SHIRT = '/detail-shirt';
 }

@@ -26,6 +26,7 @@ class HomeController extends GetxController {
     if (id == 1) {
       Get.toNamed(Routes.CONCERTRIC);
     } else if (id == 2) {
+      Get.toNamed(Routes.SHIRT);
     } else if (id == 3) {
     } else if (id == 4) {}
   }

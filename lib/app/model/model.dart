@@ -25,3 +25,13 @@ class ConcertricModel {
     this.textColor = Colors.black,
   });
 }
+
+
+class Shirt{
+  String? name;
+  String? price;
+  String? desc;
+  String? image;
+
+  Shirt({this.name, this.price, this.desc, this.image});
+}
