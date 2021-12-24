@@ -11,7 +11,7 @@ void main() {
         fontFamily: 'QuickSand',
         primarySwatch: Colors.pink,
       ),
-      title: "Bayu Apps",
+      title: "Bayu Apps ",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
     ),
