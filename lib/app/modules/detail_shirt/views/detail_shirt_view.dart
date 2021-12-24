@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 
 import '../controllers/detail_shirt_controller.dart';
 
+// ignore: must_be_immutable
 class DetailShirtView extends GetView<DetailShirtController> {
   Shirt? shirt;
   String? tagImage;
