@@ -33,7 +33,7 @@ class HomeController extends GetxController {
 
   void setItem() {
     itemList.add(Item(id: 1, name: "concentric\ntransition"));
-    itemList.add(Item(id: 2, name: "coming soon"));
+    itemList.add(Item(id: 2, name: "Jersey UI"));
     itemList.add(Item(id: 3, name: "coming soon"));
     itemList.add(Item(id: 4, name: "coming soon"));
     itemList.add(Item(id: 5, name: "coming soon"));
