@@ -10,6 +10,7 @@ abstract class Routes {
   static const DOCTOR = _Paths.DOCTOR;
   static const SHIRT = _Paths.SHIRT;
   static const DETAIL_SHIRT = _Paths.DETAIL_SHIRT;
+  static const STATE_CUSTOM = _Paths.STATE_CUSTOM;
 }
 
 abstract class _Paths {
@@ -19,4 +20,5 @@ abstract class _Paths {
   static const DOCTOR = '/doctor';
   static const SHIRT = '/shirt';
   static const DETAIL_SHIRT = '/detail-shirt';
+  static const STATE_CUSTOM = '/state-custom';
 }

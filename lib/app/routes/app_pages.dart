@@ -12,6 +12,8 @@ import 'package:bayu_flutter/app/modules/intro/bindings/intro_binding.dart';
 import 'package:bayu_flutter/app/modules/intro/views/intro_view.dart';
 import 'package:bayu_flutter/app/modules/shirt/bindings/shirt_binding.dart';
 import 'package:bayu_flutter/app/modules/shirt/views/shirt_view.dart';
+import 'package:bayu_flutter/app/modules/state_custom/bindings/state_custom_binding.dart';
+import 'package:bayu_flutter/app/modules/state_custom/views/state_custom_view.dart';
 
 part 'app_routes.dart';
 
@@ -50,6 +52,11 @@ class AppPages {
       name: _Paths.DETAIL_SHIRT,
       page: () => DetailShirtView(),
       binding: DetailShirtBinding(),
+    ),
+    GetPage(
+      name: _Paths.STATE_CUSTOM,
+      page: () => StateCustomView(),
+      binding: StateCustomBinding(),
     ),
   ];
 }

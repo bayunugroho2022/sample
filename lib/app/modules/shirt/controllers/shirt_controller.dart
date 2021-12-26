@@ -24,6 +24,7 @@ class ShirtController extends GetxController {
 
   @override
   void onInit() {
+    print('init shirt');
     addShirt();
     pageShirtController.addListener(iceCreamScrollListener);
     pageTextController.addListener(textScrollListener);
